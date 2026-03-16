@@ -1,60 +1,62 @@
-🎬 ClipGen
+# 🎬 ClipGen
 
-ClipGen é uma aplicação web desenvolvida durante o evento NLW-22 da Rocketseat.
-O projeto tem como objetivo transformar vídeos longos em clipes curtos e virais automaticamente, utilizando Inteligência Artificial para identificar os melhores momentos do vídeo.
+**ClipGen** é uma aplicação web desenvolvida durante o evento **NLW-22 da Rocketseat**.
 
-A aplicação foi pensada para facilitar a criação de conteúdo para plataformas como TikTok, Instagram Reels e YouTube Shorts.
+O objetivo do projeto é **transformar vídeos longos em clipes curtos e virais automaticamente**, utilizando **Inteligência Artificial para identificar os melhores momentos do vídeo**.
 
-🚀 Tecnologias Utilizadas
+A aplicação facilita a criação de conteúdo para plataformas como **TikTok, Instagram Reels e YouTube Shorts**.
 
-O projeto utiliza ferramentas modernas para garantir performance, escalabilidade e uma ótima experiência de usuário.
+---
 
-🤖 Inteligência Artificial
+# 🚀 Tecnologias Utilizadas
 
-Gemini API
-Utilizada para analisar o conteúdo do vídeo e identificar momentos relevantes e potencialmente virais.
+O projeto utiliza ferramentas modernas para garantir **performance, design e inteligência**.
 
-☁️ Gerenciamento de mídia
+## 🤖 Inteligência Artificial
+- **Gemini API**  
+  Responsável por analisar o conteúdo do vídeo e identificar **momentos relevantes e potencialmente virais**.
 
-Cloudinary
-Responsável pelo upload, armazenamento, processamento e otimização dos vídeos.
+## ☁️ Gerenciamento de Mídia
+- **Cloudinary**  
+  Utilizado para **upload, armazenamento e otimização de vídeos na nuvem**.
 
-🎨 Frontend
+## 🎨 Frontend
+- **Tailwind CSS**  
+  Framework utilitário para criação de interfaces **modernas, responsivas e rápidas de desenvolver**.
 
-Tailwind CSS
-Framework de estilização utilitário para construção rápida de interfaces modernas e responsivas.
+## ✨ Animações
+- **GSAP (GreenSock Animation Platform)**  
+  Biblioteca utilizada para criar **animações fluidas e interações de interface avançadas**.
 
-✨ Animações
+---
 
-GSAP (GreenSock Animation Platform)
-Biblioteca poderosa para animações fluidas e interações avançadas na interface.
-
-🛠️ Como funciona
+# 🛠️ Como Funciona
 
 O fluxo da aplicação segue os seguintes passos:
 
-Upload do vídeo
+1. **Upload do vídeo**
+   - O usuário envia um vídeo longo através da interface da aplicação.
 
-O usuário envia um vídeo longo pela interface da aplicação.
+2. **Processamento da mídia**
+   - O vídeo é enviado para o **Cloudinary**, que realiza o processamento e armazenamento.
 
-Processamento do vídeo
+3. **Análise com Inteligência Artificial**
+   - A **Gemini API** analisa o conteúdo do vídeo e identifica **momentos com maior potencial de engajamento**.
 
-O vídeo é enviado para o Cloudinary, que gerencia o armazenamento e processamento da mídia.
+4. **Sugestão de cortes**
+   - A aplicação sugere **trechos estratégicos** do vídeo original.
 
-Análise com Inteligência Artificial
+5. **Clipes prontos para redes sociais**
+   - Os clipes gerados podem ser utilizados diretamente em:
+     - TikTok
+     - Instagram Reels
+     - YouTube Shorts
 
-A Gemini API analisa o conteúdo do vídeo para identificar trechos com maior potencial de engajamento.
+---
 
-Geração dos clipes
+# 📦 Instalação
 
-A aplicação sugere cortes estratégicos do vídeo original.
+Clone o repositório:
 
-Clipes prontos para redes sociais
-
-Os trechos gerados podem ser utilizados diretamente em plataformas como:
-
-TikTok
-
-Instagram Reels
-
-YouTube Shorts
+```bash
+git clone https://github.com/seu-usuario/clipgen.git
